@@ -32,7 +32,7 @@ public class HomeControllerMVC {
 		System.out.println(s.getMobilno());
 		System.out.println(s.getUsername());
 		System.out.println(s.getPassword());
-		System.out.println("suc method");
+		System.out.println("succsess method");
 		al.add(s);
 		return "login";
 	}
