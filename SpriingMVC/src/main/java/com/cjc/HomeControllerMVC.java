@@ -41,11 +41,11 @@ public class HomeControllerMVC {
 		{
 			System.out.println("login_method----"+un);
 			System.out.println("login_method----"+ps);
-			for(Student stu : al)
+			for(Student stu1 : al)
 			{
-				if(un.equalsIgnoreCase(stu.getUsername())&& ps.equals(stu.getPassword()))
+				if(un.equalsIgnoreCase(stu1.getUsername())&& ps.equals(stu1.getPassword()))
 				{
-					m.addAttribute("data", stu);
+					m.addAttribute("data", stu1);
 					return "success";
 				}
 			}
